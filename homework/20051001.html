@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1주차 과제_이도은</title>
+    <style>
+        .wrap {
+            margin: auto;
+            width: 500px;
+        }
+
+        * {
+            font-family:
+                'Gaegu',
+                cursive;
+        }
+    </style>
+
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <div>
+            <img src="https://m.madecar.co.kr/web/product/big/20200403/b41dee46499501cb2c936b737d41841a.jpg">
+            <h1>k94 마스크 예약 판매합니다.</h1>
+            <h3>1인당 최대 3개 구매가능합니다.(3,000원 /개, 배송비 별도)</h3>
+        </div>
+        <div>
+            <p>
+                주문자 성함: <input type="text" />
+            </p>
+            <div class="form-group">
+                <label for="exampleFormControlSelect1">수량:</label>
+                <select class="custom-select">
+                    <option selected>--수량을 선택하세요--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </div>
+            <p>
+                주소: <input type="text" />
+            </p>
+            <p>
+                전화번호: <input type="text" />
+            </p>
+        </div>
+
+        <button onclick="hey()" type="button" class="btn btn-primary">주문하기</button>
+    </div>
+</body>
+
+</html>

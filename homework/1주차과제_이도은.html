@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1주차 과제_이도은</title>
+    <style>
+        .wrap {
+            width: 500px;
+            margin: 10px auto;
+        }
+
+        .image-box {
+            width: 500px;
+            margin: auto;
+            padding: 5px;
+            border: 2px solid dodgerblue;
+            border-radius: 10px;
+        }
+
+        .box {
+            color: dodgerblue;
+            text-align: center;
+        }
+
+        .post-box {
+            background-color: #93DAFF;
+            width: 600px;
+            margin: auto;
+            padding: 10px;
+            border: 2px solid dodgerblue;
+            border-radius: 10px;
+        }
+
+        .button {
+            width: 100px;
+            height: 100%;
+            margin: auto;
+
+            ;
+
+        }
+
+        * {
+            font-family: 'Stylish', sans-serif;
+
+        }
+    </style>
+
+    <script>
+        function hey() {
+            alert('주문이 완료되었습니다.');
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Stylish&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="image-box">
+            <img src="https://m.madecar.co.kr/web/product/big/20200403/b41dee46499501cb2c936b737d41841a.jpg">
+        </div>
+        <div class="box">
+            <h3>KF94 마스크 예약 판매합니다. (3,000원/개, 배송비 별도)</h3>
+            <h3>(단, 1인당 최대 3개까지 구매 가능) </h3>
+        </div>
+    </div>
+    </div>
+    <div class="post-box">
+        <p>
+            주문자 성함 : <input type="text" />
+        </p>
+        </p>
+        <div class="form-group">
+            <label for="exampleFormControlSelect1">
+                수량 :
+            </label>
+            <select class="custom-select">
+                <option selected>--수량을 선택하세요--</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+
+            </select>
+        </div>
+        <p>
+        <div class="form-row">
+            배송지 :
+            <input type="text" class="form-control" placeholder="우편번호">
+            <input type="text" class="form-control" placeholder="기본주소"> <input type="text" class="form-control"
+                placeholder="상세주소">
+        </div>
+        </p>
+        <p>
+            전화번호: <input type="text" />
+        </p>
+        <div class="button">
+            <button onclick="hey()" type="button" class="btn btn-primary">
+                <h3>주문하기</h3>
+            </button>
+        </div>
+    </div>
+</body>
+
+</html>
