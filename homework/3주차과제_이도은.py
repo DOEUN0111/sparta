@@ -11,6 +11,7 @@ soup = BeautifulSoup(data.text, 'html.parser')
 
 trs = soup.select('#body-content > div.newest-list > div > table > tbody > tr')
 
+# 숙제 제출
 for tr in trs : 
     
     rank = tr.select_one('td.number').text[:2]
